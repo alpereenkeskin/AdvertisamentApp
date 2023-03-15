@@ -1,0 +1,35 @@
+﻿@model List<AdvertisamentListDto>
+@{
+    ViewData["Title"] = "HumanResorce";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="accordion mt-5" id="accordionExample">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-@Model[i].Id">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@Model[i].Id" aria-expanded="@(i%2==0)" aria-controls="collapse-@Model[i].Id">
+                        @Model[i].Title
+                    </button>
+                </h2>
+                <div id="collapse-@Model[i].Id" class="accordion-collapse collapse @(i==0?"show":"") " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        @Html.Raw(Model[i].Description)
+                        @{
+                            if (User.Identity.IsAuthenticated)
+                            {
+                                <a asp-action="Send" asp-controller="Advertisament" asp-route-advertisamentId="@Model[i].Id">Başvur</a>
+                            }
+                            else
+                            {
+                                <a asp-action="SignIn" asp-controller="Account">Başvuru yapabbilmeniz için giriş yapmanız gerekmektedir.</a>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

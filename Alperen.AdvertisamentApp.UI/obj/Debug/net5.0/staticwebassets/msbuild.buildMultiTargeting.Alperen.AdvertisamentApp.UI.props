@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Alperen.AdvertisamentApp.UI.props" />
+</Project>

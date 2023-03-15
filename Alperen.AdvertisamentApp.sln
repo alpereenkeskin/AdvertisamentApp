@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alperen.AdvertisamentApp.Common", "Alperen.AdvertisamentApp.Common\Alperen.AdvertisamentApp.Common.csproj", "{34FC1027-EFE7-4D95-AD1A-EA77231DD5B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alperen.AdvertisamentApp.Entities", "Alperen.AdvertisamentApp.Entities\Alperen.AdvertisamentApp.Entities.csproj", "{175F2AEB-5DA4-462E-8474-E7A0C767DEDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alperen.AdvertisamentApp.DataAccess", "Alperen.AdvertisamentApp.DataAccess\Alperen.AdvertisamentApp.DataAccess.csproj", "{C4502C68-02E6-40DB-AC06-6D5813D0A163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alperen.AdvertisamentApp.Business", "Alperen.AdvertisamentApp.Business\Alperen.AdvertisamentApp.Business.csproj", "{49575A84-7A36-4BFA-99BF-6BABE0944E4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alperen.AdvertisamentApp.UI", "Alperen.AdvertisamentApp.UI\Alperen.AdvertisamentApp.UI.csproj", "{3EA48A1B-F038-4446-A32E-9BDFE06CB081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alperen.AdvertisamentApp.Dtos", "Alperen.AdvertisamentApp.Dtos\Alperen.AdvertisamentApp.Dtos.csproj", "{D4512027-32FD-438F-A870-64A5DB96FED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34FC1027-EFE7-4D95-AD1A-EA77231DD5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FC1027-EFE7-4D95-AD1A-EA77231DD5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FC1027-EFE7-4D95-AD1A-EA77231DD5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FC1027-EFE7-4D95-AD1A-EA77231DD5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175F2AEB-5DA4-462E-8474-E7A0C767DEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175F2AEB-5DA4-462E-8474-E7A0C767DEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175F2AEB-5DA4-462E-8474-E7A0C767DEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175F2AEB-5DA4-462E-8474-E7A0C767DEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4502C68-02E6-40DB-AC06-6D5813D0A163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4502C68-02E6-40DB-AC06-6D5813D0A163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4502C68-02E6-40DB-AC06-6D5813D0A163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4502C68-02E6-40DB-AC06-6D5813D0A163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49575A84-7A36-4BFA-99BF-6BABE0944E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49575A84-7A36-4BFA-99BF-6BABE0944E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49575A84-7A36-4BFA-99BF-6BABE0944E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49575A84-7A36-4BFA-99BF-6BABE0944E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA48A1B-F038-4446-A32E-9BDFE06CB081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA48A1B-F038-4446-A32E-9BDFE06CB081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA48A1B-F038-4446-A32E-9BDFE06CB081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA48A1B-F038-4446-A32E-9BDFE06CB081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4512027-32FD-438F-A870-64A5DB96FED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4512027-32FD-438F-A870-64A5DB96FED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4512027-32FD-438F-A870-64A5DB96FED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4512027-32FD-438F-A870-64A5DB96FED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CA608A1-F3AE-4BC7-8628-2D6640D2D55C}
+	EndGlobalSection
+EndGlobal

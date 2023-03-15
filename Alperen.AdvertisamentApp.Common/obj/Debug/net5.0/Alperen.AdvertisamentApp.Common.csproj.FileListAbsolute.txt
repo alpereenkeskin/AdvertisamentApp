@@ -1,0 +1,12 @@
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\bin\Debug\net5.0\Alperen.AdvertisamentApp.Common.deps.json
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\bin\Debug\net5.0\Alperen.AdvertisamentApp.Common.dll
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\bin\Debug\net5.0\Alperen.AdvertisamentApp.Common.pdb
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.csproj.AssemblyReference.cache
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.AssemblyInfoInputs.cache
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.AssemblyInfo.cs
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.dll
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\refint\Alperen.AdvertisamentApp.Common.dll
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\Alperen.AdvertisamentApp.Common.pdb
+C:\Users\alper\OneDrive\Masaüstü\Alperen.AdvertisamentApp\Alperen.AdvertisamentApp.Common\obj\Debug\net5.0\ref\Alperen.AdvertisamentApp.Common.dll

@@ -1,0 +1,37 @@
+﻿@model List<AdvertisamentUserListDto>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h1>Tüm İş ilanları</h1>
+    <a asp-action="List" asp-controller="Application" asp-route-advertisamentAppUserStatusType="@((int)AdvertisamentAppUserStatusType.Mulakat)" class="btn btn-primary">Mülakata çağırılan başvurular</a> | <a asp-action="List" asp-controller="Application" asp-route-advertisamentAppUserStatusType="@((int)AdvertisamentAppUserStatusType.Olumsuz)" class="btn btn-danger">Olumsuz sonuçlanan başvurular</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Başvuru Yapılan ilan</th>
+                <th scope="col">Başvuru yapan kullanıcı</th>
+                <th scope="col">Başvuru durumu</th>
+                <th scope="col">Askerlik Durumu</th>
+                <th scope="col">Tescil Tarihi (Varsa)</th>
+                <th scope="col">İş deneyimi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Advertisament.Title</td>
+                    <td>@item.AppUser.FirtsName</td>
+                    <td>@item.AdvertisamentUserStatus</td>
+                    <td>@item.MilitaryStatus.Definition</td>
+                    <td>@item.EndDate</td>
+                    <td>@item.WorkExperiance</td>
+                    <td><a asp-action="SetStatus" asp-controller="Application" asp-route-advertisamentuserId="@item.Id" asp-route-advertisamentAppUserStatusType="@((int)AdvertisamentAppUserStatusType.Mulakat)">Mülakata çağır</a><a asp-action="SetStatus" asp-controller="Application" asp-route-advertisamentuserId="@item.Id" asp-route-advertisamentAppUserStatusType="@((int)AdvertisamentAppUserStatusType.Olumsuz)" class="btn btn-danger">Reddet</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
